@@ -5,7 +5,7 @@ date:   2020-04-09 16:44:11 -0400
 categories: exploits
 ---
 
-# D-Link DCS-5020L Vulnerability Assessment Pt. 4 - Exploitation
+# Exploitation
 
 ## The Finale
 This is the part you've been waiting for right? We've downloaded a firmware, 

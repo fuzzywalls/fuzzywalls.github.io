@@ -5,7 +5,7 @@ date:   2020-04-09 16:44:11 -0400
 categories: exploits
 ---
 
-# D-Link DCS-5020L Vulnerability Assessment Pt. 3 - Emulation
+# Emulation
 
 ## The Sploit
 In part 2 of the assessment we discovered a potential overflow in the 

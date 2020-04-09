@@ -5,7 +5,7 @@ date:   2020-04-09 16:44:11 -0400
 categories: exploits
 ---
 
-# D-Link DCS-5020L Vulnerability Assessment Pt. 2 - Exploit Identification
+# Exploit Identification
 
 ## Turn the Technical Up a Bit
 In part one of the Vulnerability assessment we talked about choosing a target,

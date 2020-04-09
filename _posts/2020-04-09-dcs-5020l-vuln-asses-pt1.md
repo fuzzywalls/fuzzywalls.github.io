@@ -5,7 +5,7 @@ date:   2020-04-09 16:44:11 -0400
 categories: exploits
 ---
 
-# D-Link DCS-5020L Vulnerability Assessment Pt. 1 - In the beginning
+# In the beginning
 
 Have you ever wanted to be like the super l33t hax0rs that you see in the movies?
 Sitting in a dark room pounding away randomly on a keyboard with the only light
