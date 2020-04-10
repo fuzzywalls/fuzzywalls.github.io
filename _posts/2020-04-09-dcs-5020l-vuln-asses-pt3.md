@@ -2,6 +2,7 @@
 layout: post
 title:  "D-Link DCS-5020L Vuln Assessment Pt. 3"
 date:   2020-04-09 16:44:11 -0400
+comments: true
 categories: exploits
 ---
 
