@@ -165,3 +165,7 @@ Through the power of emulation we have proven the `strcpy` is vulnerable and it
 can be triggered by a request to the server. So far it's been completely free 
 to validate. Next time we are going to fully put on our hacking caps by writing 
 a ROP chain to exploit this vulnerability and make magic happen.
+
+## Attached Files
+[Nvram Files]({{site.baseurl}}/assets/docs/nvram.zip)
+
