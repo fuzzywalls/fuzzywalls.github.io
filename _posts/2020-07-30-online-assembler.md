@@ -38,54 +38,12 @@ categories:
                 <h2 id=bb-collapse class="collapsible">Bad Bytes </h2>
 				<div id="bad-bytes"></div>
 				<h2 id=bs-collapse class="collapsible">Byte String <div class="tooltip"><img id="copy-bytes" src="{{site.baseurl}}/assets/images/copy-icon.png" onmouseout="clearTooltip()"></img><span id="tooltip" class="tooltiptext">Copy bytes to clipboard</span></div> </h2>
-				<div id="byte-string"></div>
+				<div id="byte-string">No bytes found. Write some assembly first.</div>
 				<h2 id=err-collapse class="collapsible">Errors <div id="error-count">0</div></h2>
-				<div id="errors"></div>
+				<div id="errors">No errors detected.</div>
 			</div>
 		</div>
 	</body>
+    <footer>Last Update: July 31, 2020</footer>
 </html>
-
-<script>
-
-	var assemblyText = document.getElementById("assembly");
-	var errorMessages = document.getElementById("errors");
-	var errorCount = document.getElementById("error-count");
-	var endian = document.getElementById("endian");
-	var arch = document.getElementById("arch");
-	var badBytes = document.getElementById("bad-bytes");
-	var copyBytes = document.getElementById("copy-bytes");
-	var bbCollapsible = document.getElementById("bb-collapse");
-	var bsCollapsible = document.getElementById("bs-collapse");
-	var errCollapsible = document.getElementById("err-collapse");
-
-	assemblyText.value = "";
-	arch.value = "";
-	addLineNumber(true);
-
-	assemblyText.addEventListener("keydown", processKeyDown);
-	assemblyText.addEventListener("input", processDelete);
-	endian.addEventListener("change", updateBytes);
-	arch.addEventListener("change", loadArchitecture);
-	bbCollapsible.addEventListener("click", handleCollapse);
-	bsCollapsible.addEventListener("click", handleCollapse);
-	errCollapsible.addEventListener("click", handleCollapse);
-	//copyBytes.addEventListener("click", copyBytes);
-
-	for(var i=0; i<=0xFF; i++) {
-		var newButton = document.createElement('input');
-		newButton.type = "button";
-		var value = i.toString(16);
-		if(value.length < 2) {
-			value = '0' + value;
-		}
-		newButton.value = "0x" + value;
-		newButton.addEventListener("mousedown", updateBadBytes);
-		newButton.addEventListener("mouseenter", hoverUpdateBadBytes);
-		badBytes.appendChild(newButton);
-	}
-
-
-</script>
-
 {:/nomarkdown}
