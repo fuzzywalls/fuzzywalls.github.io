@@ -1,7 +1,7 @@
 ---
 layout: empty
 title:  "Mips Online Assembler"
-date:   2020-07-30 00:00:00 -0400
+date: 2020-07-30 00:00:00 -0400
 comments: false
 categories: 
 ---

@@ -3,3 +3,4 @@ description: Ramblings about code on my Github or random things I found interest
 show_downloads: false
 google_analytics: UA-163283130-1
 theme: jekyll-theme-midnight
+permalink: "/:categories/:title.html"
