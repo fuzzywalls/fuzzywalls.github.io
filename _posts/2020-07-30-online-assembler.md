@@ -14,21 +14,25 @@ categories:
         <div>
 			<img src="{{site.baseurl}}/assets/images/TNS.png" width="80" height="80" style="float: right;">
             <h2>
-				Tactical Network Solutions Online Assembler
-			</h2>
-			<div style="margin-bottom: 10px;">
-				<select id="arch" class="round">
-					<option value="" selected>Select Architecture</option>
-					<option value="1">MIPS I</option>
-					<option value="2">MIPS II</option>
-					<option value="3">MIPS III</option>
-					<option value="4">MIPS IV</option>
-				</select>
-				<select id="endian" class="round">
-					<option value="little">Little Endian</option>
-					<option value="bit">Big Endian</option>
-				</select>
-			</div>
+                Tactical Network Solutions Online Assembler
+            </h2>
+            <div style="margin-bottom: 10px; display: inline-flex;">
+                <div class="select">
+                    <select id="arch">
+                        <option value="" selected>Select Architecture</option>
+                        <option value="1">MIPS I</option>
+                        <option value="2">MIPS II</option>
+                        <option value="3">MIPS III</option>
+                        <option value="4">MIPS IV</option>
+                    </select>
+                </div>
+                <div class="select">
+                    <select id="endian">
+                        <option value="little">Little Endian</option>
+                        <option value="bit">Big Endian</option>
+                    </select>
+                </div>
+            </div>
 		</div>
 		<div class="text-content">
 			<div id="line-numbers"></div>
@@ -44,6 +48,6 @@ categories:
 			</div>
 		</div>
 	</body>
-    <footer>Last Update: July 31, 2020</footer>
+    <footer>Last Update: August 3, 2020</footer>
 </html>
 {:/nomarkdown}
