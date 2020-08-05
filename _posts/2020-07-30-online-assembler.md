@@ -8,7 +8,8 @@ categories:
 {::nomarkdown}
 <html>
 	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/assembler.css">
-    <script src="{{site.baseurl}}/assets/js/assembler/process.js"></script>
+    <script src="{{site.baseurl}}/assets/js/assembler/editor.js"></script>
+    <script src="{{site.baseurl}}/assets/js/assembler/processor.js"></script>
 	<script src="{{site.baseurl}}/assets/js/assembler/MipsBase.js"></script>
 	<body>
         <div>
@@ -48,6 +49,6 @@ categories:
 			</div>
 		</div>
 	</body>
-    <footer>Last Update: August 3, 2020</footer>
+    <footer>Last Update: August 5, 2020</footer>
 </html>
 {:/nomarkdown}
