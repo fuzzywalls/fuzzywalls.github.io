@@ -49,6 +49,6 @@ categories:
 			</div>
 		</div>
 	</body>
-    <footer>Last Update: August 5, 2020</footer>
+    <footer>Last Update: August 11, 2020</footer>
 </html>
 {:/nomarkdown}
